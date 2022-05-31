@@ -1,7 +1,62 @@
-*, 
+/* Default styles */
+*,
 ::after,
 ::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+#navbar {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.1rem;
+}
+
+.container {
+  max-width: 1240px;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
+  color: hsl(205, 78%, 60%);
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+.navbar__menu {
+  display: flex;
+}
+.navbar__menu a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: hsl(205, 86%, 17%);
+}
+.navbar__menu a:hover {
+  color: hsl(205, 78%, 60%);
+}
+
+/* Main Section Start */
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(206, 33%, 96%);
+}
+main h2 {
+  background-color: black;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.btn {
+  text-transform: uppercase;
+  color: hsl(205, 86%, 17%);
 }
