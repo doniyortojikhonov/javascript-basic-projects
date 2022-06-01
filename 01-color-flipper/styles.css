@@ -24,6 +24,7 @@ body {
   color: hsl(205, 78%, 60%);
   font-size: 1.3rem;
   letter-spacing: 2px;
+  padding: 25px 0;
 }
 .navbar__menu {
   display: flex;
@@ -53,10 +54,27 @@ main h2 {
   text-transform: capitalize;
   padding: 10px 20px;
   border-radius: 7px;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 30px;
+  letter-spacing: 5px;
+}
+main span {
+  color: hsl(205, 79%, 60%);
 }
 .btn {
   text-transform: uppercase;
   color: hsl(205, 86%, 17%);
+  letter-spacing: 2px;
+  padding: 12px 17px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-weight: bold;
+  border: 2px solid #000;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
 }
