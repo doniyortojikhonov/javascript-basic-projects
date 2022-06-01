@@ -8,10 +8,12 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: hsl(206, 33%, 96%);
 }
 #navbar {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   margin-bottom: 0.1rem;
+  background-color: #fff;
 }
 
 .container {
@@ -46,7 +48,6 @@ main {
   height: 95vh;
   align-items: center;
   justify-content: center;
-  background-color: hsl(206, 33%, 96%);
 }
 main h2 {
   background-color: black;
