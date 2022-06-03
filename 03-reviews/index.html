@@ -11,6 +11,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8760c8464a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
@@ -24,8 +28,26 @@
         <!-- Reviews/comments -->
         <article class="review">
           <div class="img-container">
-            <img src="person-1.jpg" alt="image of person 1" />
+            <img id="person-img" src="person-1.jpg" alt="image of person 1" />
           </div>
+          <h4 id="author">Doniyor Tojikhonov</h4>
+          <p id="job">front end developer</p>
+          <p id="info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+            aliquid qui soluta alias cupiditate ullam ad perspiciatis molestiae
+            neque nisi.
+          </p>
+          <!-- prev / next buttons -->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button class="prev-btn">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- Random button -->
+          <button class="random-btn">suprise me</button>
         </article>
       </section>
     </main>
