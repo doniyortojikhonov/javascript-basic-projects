@@ -33,8 +33,8 @@ body {
 /* Reviews/Comments section */
 .review {
   margin-top: 70px;
-  width: 610px;
-  height: 420px;
+  width: 640px;
+  height: 430px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -47,17 +47,49 @@ body {
   height: 150px;
   border-radius: 50%;
   margin-top: 20px;
+  position: relative;
+}
+.img-container i {
+  position: absolute;
+  color: #fff;
+  top: 20px;
+  left: 10px;
+  z-index: 3;
+  font-size: large;
+}
+.img-container::before {
+  content: "";
+  background-color: hsl(205, 65%, 54%);
+  position: absolute;
+  top: -4px;
+  left: 9px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.img-container::after {
+  content: "";
+  background-color: hsl(205, 86%, 64%);
+  position: absolute;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 9px;
+  left: -2px;
 }
 #person-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  z-index: 1;
+  position: relative;
 }
 #author {
   margin-top: 23px;
   letter-spacing: 4px;
-  font-size: 17px;
+  font-size: 19px;
   color: hsl(209, 61%, 16%);
 }
 #job {
