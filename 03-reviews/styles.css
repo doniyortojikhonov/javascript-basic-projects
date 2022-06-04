@@ -33,8 +33,8 @@ body {
 /* Reviews/Comments section */
 .review {
   margin-top: 70px;
-  width: 590px;
-  height: 405px;
+  width: 610px;
+  height: 420px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -53,4 +53,56 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+#author {
+  margin-top: 23px;
+  letter-spacing: 4px;
+  font-size: 17px;
+  color: hsl(209, 61%, 16%);
+}
+#job {
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: hsl(205, 71%, 43%);
+  margin-bottom: 15px;
+}
+#info {
+  width: 550px;
+  font-size: 16px;
+  color: hsl(210, 22%, 49%);
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+}
+.prev-btn {
+  margin-top: 15px;
+  font-size: 21px;
+  background-color: transparent;
+  border: none;
+  padding: 0 7px;
+  color: hsl(205, 77%, 73%);
+}
+.prev-btn:hover {
+  cursor: pointer;
+  color: hsl(204, 67%, 48%);
+  transition: 0.4s;
+}
+.random-btn {
+  margin-top: 18px;
+  text-transform: capitalize;
+  padding: 3px 8px;
+  font-size: 15px;
+  background-color: hsl(205, 100%, 96%);
+  border-radius: 7px;
+  color: hsl(205, 94%, 55%);
+  border-color: hsl(205, 53%, 57%);
+  border: solid;
+}
+.random-btn:hover {
+  background-color: hsl(204, 87%, 59%);
+  cursor: pointer;
+  color: hsl(205, 100%, 96%);
+  transition: 0.5s;
 }
