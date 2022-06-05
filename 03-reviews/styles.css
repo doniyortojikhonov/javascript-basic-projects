@@ -88,9 +88,10 @@ body {
 }
 #author {
   margin-top: 23px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   font-size: 19px;
   color: hsl(209, 61%, 16%);
+  text-transform: capitalize;
 }
 #job {
   margin-top: 10px;
@@ -108,7 +109,8 @@ body {
   line-height: 1.5;
   text-align: center;
 }
-.prev-btn {
+.prev-btn,
+.next-btn {
   margin-top: 15px;
   font-size: 21px;
   background-color: transparent;
@@ -116,7 +118,8 @@ body {
   padding: 0 7px;
   color: hsl(205, 77%, 73%);
 }
-.prev-btn:hover {
+.prev-btn:hover,
+.next-btn:hover {
   cursor: pointer;
   color: hsl(204, 67%, 48%);
   transition: 0.4s;
