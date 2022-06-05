@@ -141,3 +141,19 @@ body {
   color: hsl(205, 100%, 96%);
   transition: 0.5s;
 }
+/* Responsivness */
+
+@media screen and (max-width: 460px) {
+  .review {
+    width: 460px;
+    height: 430px;
+    margin-top: 40px;
+  }
+  #info {
+    width: 350px;
+    font-size: 13px;
+  }
+  .title h2 {
+    font-size: 33px;
+  }
+}

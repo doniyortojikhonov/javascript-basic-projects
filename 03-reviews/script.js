@@ -52,7 +52,7 @@ let currentItem = 0;
 
 // set starting item
 window.addEventListener("DOMContentLoaded", function () {
-  showPerson(currentItem);
+  showPerson();
 });
 
 // Show person based on item
@@ -77,5 +77,11 @@ prevBtn.addEventListener("click", function () {
   if (currentItem < 0) {
     currentItem = reviews.length - 1;
   }
+  showPerson(currentItem);
+});
+
+// show random person
+randomBtn.addEventListener("click", function () {
+  currentItem = Math.floor(Math.random() * reviews.length);
   showPerson(currentItem);
 });
