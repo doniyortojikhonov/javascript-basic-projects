@@ -12,7 +12,7 @@ nav {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .container {
-  max-width: 80%;
+  max-width: 1240px;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -56,4 +56,47 @@ nav {
 .network i:hover {
   transform: scale(1.2);
   transition: 0.4s;
+}
+.toggle {
+  font-size: 29px;
+  border: none;
+  background-color: #fff;
+  display: none;
+}
+.toggle:hover {
+  transform: rotate(90deg);
+  transition: 1s;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media screen and (max-width: 1025px) {
+  .container {
+    max-width: 90%;
+  }
+  .logo {
+    font-size: 21px;
+  }
+  .menu li {
+    font-size: 15px;
+  }
+  .network li {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container {
+    justify-content: space-between;
+  }
+  .network {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
 }
