@@ -28,9 +28,12 @@ nav {
   text-transform: capitalize;
   font-size: 18px;
   letter-spacing: 3px;
+}
+.menu a {
+  text-decoration: none;
   color: hsla(60, 91%, 17%, 0.931);
 }
-.menu li:hover {
+.menu a:hover {
   cursor: pointer;
   color: hsla(60, 86%, 42%, 0.931);
   transition: 0.3s;
