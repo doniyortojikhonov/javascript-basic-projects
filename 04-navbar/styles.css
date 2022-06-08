@@ -14,13 +14,16 @@ nav {
 .menu {
   height: 0;
   overflow: hidden;
+  transition: all 0.3s linear;
 }
 .menu li {
   list-style: none;
-  margin-right: 30px;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 .menu a {
   text-decoration: none;
@@ -65,10 +68,35 @@ nav {
 .nav-header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
 }
 .show-links {
   height: 10rem;
 }
 
 /* Responsive */
+@media screen and (min-width: 900px) {
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .nav-header {
+    padding: 0;
+  }
+  .toggle {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    height: auto;
+  }
+  .menu li {
+    margin: 0 10px;
+  }
+  .network {
+    display: flex;
+  }
+}
