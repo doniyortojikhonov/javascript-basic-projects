@@ -11,6 +11,9 @@ nav {
   background-color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+.container {
+  padding: 1rem 1rem;
+}
 .menu {
   height: 0;
   overflow: hidden;
@@ -19,11 +22,9 @@ nav {
 .menu li {
   list-style: none;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 3px;
-  margin-bottom: 10px;
-  text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .menu a {
   text-decoration: none;
