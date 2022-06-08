@@ -11,16 +11,9 @@ nav {
   background-color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-.container {
-  max-width: 1240px;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  padding: 15px 0;
-  align-items: center;
-}
 .menu {
-  display: flex;
+  height: 0;
+  overflow: hidden;
 }
 .menu li {
   list-style: none;
@@ -39,7 +32,7 @@ nav {
   transition: 0.3s;
 }
 .network {
-  display: flex;
+  display: none;
 }
 .network li {
   list-style: none;
@@ -61,33 +54,21 @@ nav {
   font-size: 29px;
   border: none;
   background-color: #fff;
-  display: none;
+  display: block;
 }
 .toggle:hover {
   transform: rotate(90deg);
-  transition: 1s;
+  transition: 0.8s;
   cursor: pointer;
+  color: hsla(60, 78%, 37%, 0.931);
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.show-links {
+  height: 10rem;
 }
 
 /* Responsive */
-@media screen and (max-width: 1025px) {
-  .container {
-    max-width: 90%;
-  }
-  }
-}
-  .network li {
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .container {
-    justify-content: space-between;
-  }
-  .network {
-    display: none;
-  }
-  .toggle {
-    display: block;
-  }
-}
