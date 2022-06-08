@@ -59,6 +59,7 @@ nav {
   border: none;
   background-color: #fff;
   display: block;
+  color: #000;
 }
 .toggle:hover {
   transform: rotate(90deg);
@@ -71,7 +72,7 @@ nav {
   justify-content: space-between;
 }
 .show-links {
-  height: 10rem;
+  height: 11rem;
 }
 
 /* Responsive */
