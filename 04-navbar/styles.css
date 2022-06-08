@@ -74,12 +74,8 @@ nav {
   .container {
     max-width: 90%;
   }
-  .logo {
-    font-size: 21px;
   }
-  .menu li {
-    font-size: 15px;
-  }
+}
   .network li {
     font-size: 14px;
   }
@@ -89,11 +85,6 @@ nav {
     justify-content: space-between;
   }
   .network {
-    display: none;
-  }
-}
-@media screen and (max-width: 800px) {
-  .menu {
     display: none;
   }
   .toggle {
