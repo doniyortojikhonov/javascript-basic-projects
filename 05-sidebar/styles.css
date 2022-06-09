@@ -99,7 +99,7 @@ body {
   grid-template-rows: auto 1fr auto;
   row-gap: 1rem;
   transition: all 0.3s linear;
-  /* transform: translate(-100%); */
+  transform: translate(-100%);
 }
 .show-sidebar {
   transform: translate(0);
