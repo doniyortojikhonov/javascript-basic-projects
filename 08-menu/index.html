@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/8760c8464a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <section class="menu">
+      <!-- title -->
+      <div class="title">
+        <h2>our menu</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- filter buttons -->
+      <div class="btn-container">
+        <button data-id="all" class="filter-btn" type="button">all</button>
+        <button data-id="breakfast" class="filter-btn" type="button">
+          breakfast
+        </button>
+        <button data-id="lunch" class="filter-btn" type="button">lunch</button>
+        <button data-id="shakes" class="filter-btn" type="button">
+          shakes
+        </button>
+        <button data-id="dinner" class="filter-btn" type="button">
+          dinner
+        </button>
+      </div>
+      <!-- menu items -->
+      <div class="section-center">
+        <!-- single item -->
+        <article class="menu-item">
+          <img src="images/manu-item.jpg" class="photo" alt="menu image" />
+          <div class="item-info">
+            <header>
+              <h4>buttermilk pancakes</h4>
+              <h4 class="price">$15.99</h4>
+            </header>
+            <p class="item-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+              nobis facere, quis obcaecati architecto repellendus?
+            </p>
+          </div>
+        </article>
+        <!-- end of single item -->
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
