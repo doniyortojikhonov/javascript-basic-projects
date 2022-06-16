@@ -100,3 +100,49 @@ body {
   background: #c59d5f;
   color: #fff;
 }
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .section-center {
+    text-align: center;
+    width: 85%;
+    margin: 4rem auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .item-text {
+    padding-top: 1rem;
+    color: hsl(210, 22%, 49%);
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu-item {
+    flex-direction: column;
+    width: 20rem;
+  }
+  .photo {
+    width: 20rem;
+    height: 12rem;
+  }
+  .item-info {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .item-text {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 532px) {
+  .btn-container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+    justify-items: center;
+  }
+}
