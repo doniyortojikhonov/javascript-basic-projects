@@ -73,6 +73,7 @@ h1 {
 .slide .switch {
   left: 50%;
 }
+/* preloader */
 .preloader {
   position: fixed;
   top: 0;
